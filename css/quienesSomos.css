@@ -1,0 +1,31 @@
+
+header{
+    background-image: url('/img/campo.jpg') ;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: content-box;
+    background-position: cover;
+}
+
+
+/* HOVER DE BOTÓN */
+/* .botonRed{
+    display: flex;
+    flex-direction: column;
+    border:3px red solid;
+    width: 250px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color:red;
+    padding:10px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.botonRed:hover{
+    background-color: red;
+    color:white;
+}   */

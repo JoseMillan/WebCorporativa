@@ -1,0 +1,180 @@
+/* *********************************** */
+/* *** ESTILOS GENERALES *** */
+/* *********************************** */
+*
+*::before
+*:after{
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Tipografía */
+@font-face {
+    font-family: "";
+    src: url("") format("woof2"),
+         url("") format("woof");
+}
+
+/* ******************************** */
+
+/* Colores */
+
+/* ******************************** */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:60px;
+    background-color:#DDE9F0;
+    width:100%;
+
+}
+
+nav a{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 25px;
+
+}
+
+
+.logo{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height:48px;
+    width: 96px;
+}
+
+
+
+.secheader{
+    height: 45vh;
+    background-image: url('/img/banner.jpg') ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secheader h1{
+    font-size:70px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction:row;
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+main{
+    height: 55vh;
+    background-color: #DDE9F0;
+    width: 100%;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.whiteic{
+    background-color: white;
+    width: 20px;
+    margin-left: 5px;
+    margin-top:20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding-bottom: 1px;
+    margin-left: 10px;
+
+}
+
+.rss{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.rsstitle{
+    margin-left: 20px;
+    color:white;
+
+}
+
+.rss h5{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    height: 10px;
+
+}
+
+.telemail{
+    color:white;
+    list-style: none;
+}
+
+.telemail li{
+    padding-bottom: 15px;
+}
+
+h5{
+    color:white; 
+}
+
+.formu{
+    margin-left: 100px;
+}
+
+.formtitle{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.copy{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    padding-top:40px;
+}
+
+.footcentro{
+    align-items: center;
+}
+
+button{
+height: 28px;
+}
+
+input{
+    height: 20px;
+}
